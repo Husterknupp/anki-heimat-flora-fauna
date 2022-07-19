@@ -573,7 +573,7 @@
             "__type__": "Note",
             "fields": [
                 "Ina Lieblingsblumen",
-                "<u>Gerne</u>   Fresien, Tulpen, Glockenblume (Campanula), Flieder, Osterglocken, Winterlinge<br><br><u>Nicht</u>   Gerbera, Hyazinten, rot (ausser Rosen)"
+                "<u>Gerne</u>&nbsp;&nbsp;&nbsp;&nbsp;Fresien, Tulpen, Glockenblume (Campanula), Flieder, Osterglocken, Winterlinge<br><br>\n<u>Nicht</u>&nbsp;&nbsp;&nbsp;&nbsp;Gerbera, Hyazinten, rot (ausser Rosen)"
             ],
             "guid": "U}}9E",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
