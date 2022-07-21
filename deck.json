@@ -840,6 +840,18 @@
             "tags": [
                 "FF::Pflanzen"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img alt=\"Standort für Hortensien – das gibt es zu beachten | OBI\" src=\"2-hortensien-standort-blpid-00710902.jpg\"><br><img alt=\"\" src=\"Gartenhortensie_in_der_Gesamtansicht,_pink.jpg\">",
+                "FAKE Hortensie / Gartenhortensie (giftig)"
+            ],
+            "guid": ">M=3KGsED",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da8",
+            "tags": [
+                "FF::Pflanzen"
+            ]
         }
     ]
 }
