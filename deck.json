@@ -65,12 +65,14 @@
         "1080px-Black-eyed_Susan_1.jpg",
         "1080px-Kormorane.Formation.Krughorn.jpg",
         "1279px-(MHNT)_Rumex_acetosa_-_Habit.jpg",
+        "2-hortensien-standort-blpid-00710902.jpg",
         "720px-Rumex_acetosa_-_Hapu_oblikas.jpg",
         "810px-SauerampferPflanze_(Rumex_acetosa).jpg",
         "813px-Mulmbock_Ausschlupfloch.jpg",
         "960px-Esox_Lucius.JPG",
         "Calendula_January_2008-1_filtered.jpg",
         "Calendula_stellata.jpg",
+        "Gartenhortensie_in_der_Gesamtansicht,_pink.jpg",
         "Heu-1024x575-c-f.webp",
         "Hypericum_perforatum_(5258413313).jpg",
         "Hypericum_perforatum_HC1.JPG",
@@ -826,6 +828,18 @@
             "guid": "%L7`M",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img alt=\"Standort für Hortensien – das gibt es zu beachten | OBI\" src=\"2-hortensien-standort-blpid-00710902.jpg\"><br><img alt=\"\" src=\"Gartenhortensie_in_der_Gesamtansicht,_pink.jpg\">",
+                "Hortensie / Gartenhortensie (giftig)"
+            ],
+            "guid": ">M=3KGsEC",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
         }
     ]
 }
