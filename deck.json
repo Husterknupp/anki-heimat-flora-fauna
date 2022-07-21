@@ -840,6 +840,16 @@
             "tags": [
                 "FF::Pflanzen"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bilder",
+                "Name"
+            ],
+            "guid": "o:p<fR&86[",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
         }
     ]
 }
