@@ -5,12 +5,16 @@ Highly opinionated list of interesting flowers and animals. Images mostly coming
 ## Export from Anki
 
 - in Anki, open "File > Export" ![](screenshot-export.png)
-- then, the exported content will live in a folder named like the deck is named in your Anki
-- use `$ unpack-export.sh anki-export .` to unpack and remove the exported files
+- as destination dir, select this git repo
+- then, the exported content will live in a directory named like the deck is named in your Anki, however the format doesn't yet meet the git repo's format
+```sh
+$ cd anki-heimat-flora-fauna
+$ unpack-export.sh [DIR-NAME-OF-EXPORTED-DECK] .
+```
 
 ## Import from GitHub
 
-- CrowdAnki will maintain learning progress for updating existing notes
+- CrowdAnki will maintain learning progress also when a card receives an update
 - in Anki, open "File > CrowdAnki: Import from git repository"
-- use our eg, the browser url `https://github.com/Husterknupp/anki-heimat-flora-fauna`
+- you may use the browser url: `https://github.com/Husterknupp/anki-heimat-flora-fauna`
 - you may leave the default settings ![](screenshot-import.png)
