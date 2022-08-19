@@ -714,7 +714,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "<img src=\"Hypericum_perforatum_(5258413313).jpg\"><br><br><img src=\"Hypericum_perforatum_HC1.JPG\"><br><br><img src=\"Johanniskraut_2-1-768x1024.jpg\" width=\"192\">",
+                "<img src=\"Johanniskraut_2-1-768x1024.jpg\" width=\"192\"><br><br><img src=\"Hypericum_perforatum_(5258413313).jpg\" width=\"495\"><br><br><img src=\"Hypericum_perforatum_HC1.JPG\" width=\"644\">",
                 "Johanniskraut (nicht giftig)"
             ],
             "guid": "b`t@PIIJ4r",
@@ -827,7 +827,9 @@
             ],
             "guid": "8}X%M",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -837,7 +839,9 @@
             ],
             "guid": "ja>m1",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -847,7 +851,9 @@
             ],
             "guid": "%L7`M",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -869,7 +875,9 @@
             ],
             "guid": "H:LOB",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -879,7 +887,9 @@
             ],
             "guid": "AgqXJ",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -889,7 +899,9 @@
             ],
             "guid": "SSY6O",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -899,7 +911,9 @@
             ],
             "guid": "=@34",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -909,7 +923,9 @@
             ],
             "guid": "Oi&gP",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         },
         {
             "__type__": "Note",
@@ -919,7 +935,9 @@
             ],
             "guid": "bW5g9",
             "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-            "tags": []
+            "tags": [
+                "FF::Pflanzen"
+            ]
         }
     ],
     "reviewLimit": null,
