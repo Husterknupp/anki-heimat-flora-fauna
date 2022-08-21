@@ -1,0 +1,1064 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "8d6704e0-06d1-11ed-802f-4115f6f84da7",
+    "deck_config_uuid": "c41b98b8-0cdd-11ed-a67a-eba51bd3ce84",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c41b98b8-0cdd-11ed-a67a-eba51bd3ce84",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 5,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0,
+                    360.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 1,
+                "perDay": 24
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": false,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 0.8,
+                "ivlFct": 0.9,
+                "maxIvl": 36500,
+                "perDay": 1000
+            },
+            "reviewOrder": 0,
+            "straightReward": {
+                "baseEase": 5,
+                "enableNotifications": true,
+                "startEase": 130,
+                "stepEase": 5,
+                "stopEase": 230,
+                "straightLength": 2
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "0054pic_blatt_me.jpg",
+        "0055pic_blatt_me.jpg",
+        "0055pic_fruechte_me.jpg",
+        "0055pic_more1_me.jpg",
+        "0056pic_blatt_me.jpg",
+        "0064pic_blatt_gr.jpg",
+        "0064pic_habitus_gr.jpg",
+        "0064pic_more1_gr.jpg",
+        "0064pic_more3_gr.jpg",
+        "0066pic_blatt_gr.jpg",
+        "0066pic_habitus_gr.jpg",
+        "0066pic_more3_gr.jpg",
+        "0066pic_rinde_gr.jpg",
+        "0074pic_blatt_gr.jpg",
+        "0074pic_fruechte_gr.jpg",
+        "0074pic_habitus_gr.jpg",
+        "0074pic_more3_gr.jpg",
+        "0074pic_rinde_gr.jpg",
+        "0082pic_blatt_gr.jpg",
+        "0082pic_fruechte_gr.jpg",
+        "0082pic_habitus_gr.jpg",
+        "0082pic_rinde_gr.jpg",
+        "0103pic_fruechte_gr.jpg",
+        "0103pic_habitus_gr.jpg",
+        "0103pic_more3_gr.jpg",
+        "0103pic_rinde_gr.jpg",
+        "0168pic_blatt_me.jpg",
+        "0406pic_blatt_gr.jpg",
+        "0406pic_bluete_gr.jpg",
+        "0406pic_habitus_gr.jpg",
+        "0406pic_rinde_gr.jpg",
+        "1003px-Ergates_faber_female_up.jpg",
+        "1026px-Ergates_faber_larva1.jpg",
+        "1036px-Ergates_faber_(ninfas).jpg",
+        "1080px-Black-eyed_Susan_1.jpg",
+        "1080px-Kormorane.Formation.Krughorn.jpg",
+        "1279px-(MHNT)_Rumex_acetosa_-_Habit.jpg",
+        "16610950475698252398491352650493.jpg",
+        "166109547005737596741392922894492234043117452670706.jpg",
+        "2-hortensien-standort-blpid-00710902.jpg",
+        "720px-Rumex_acetosa_-_Hapu_oblikas.jpg",
+        "810px-SauerampferPflanze_(Rumex_acetosa).jpg",
+        "813px-Mulmbock_Ausschlupfloch.jpg",
+        "960px-Esox_Lucius.JPG",
+        "Calendula_January_2008-1_filtered.jpg",
+        "Calendula_stellata.jpg",
+        "Gartenhortensie_in_der_Gesamtansicht,_pink.jpg",
+        "Heu-1024x575-c-f.webp",
+        "Hypericum_perforatum_(5258413313).jpg",
+        "Hypericum_perforatum_HC1.JPG",
+        "Johanniskraut_2-1-768x1024.jpg",
+        "Kornblume02.JPG",
+        "Lein-gr.jpg",
+        "NSG_Insel_Imchen,_Kladow,_Berlin,_Germany_06.JPG",
+        "Phalacrocorax_carbo02.jpg",
+        "Plantago_intermedia_kz1.jpg",
+        "Plantago_lanceolata_(inflorescense).jpg",
+        "Plantago_lanceolata_040807.jpg",
+        "Plantago_major_02_ies.jpg",
+        "Rotdorn.jpg",
+        "SHU_Pappel.webp",
+        "Stroh-1024x575-c-f.webp",
+        "Thunbergia_alata_-_plant_(aka).jpg",
+        "bockshornklee-1-534x800.jpg",
+        "bockshornklee-11.jpg",
+        "bockshornklee-2.jpg",
+        "crataegus-laevigata.jpg",
+        "hecht_kreatiffworld_pixabay-1024x685.jpg",
+        "img1134408424217906340.jpg",
+        "img1279356711753843331.JPG",
+        "img132514941705187689.jpg",
+        "img143757135283988312.JPG",
+        "img1794495263249610399.JPG",
+        "img1839407586447746457.jpg",
+        "img1926978956964920727.jpg",
+        "img2159297262310809810.jpg",
+        "img2188801491549619778.jpg",
+        "img2407446959520252821.jpg",
+        "img275441162952206868.jpg",
+        "img284053671605772240.jpg",
+        "img2883247556738804705.jpg",
+        "img3319990905391744189.jpg",
+        "img3320828528656757041.jpg",
+        "img3323304669907338624.jpg",
+        "img3547011082824489959.jpg",
+        "img3961644955516148512.jpg",
+        "img4024098576171120963.jpg",
+        "img4061725225484185889.jpg",
+        "img4103670415990835267.jpg",
+        "img435555846658681696.jpg",
+        "img4365774581279966860.jpg",
+        "img4392955075115052199.jpg",
+        "img4485230193232048435.jpg",
+        "img4831728331628091414.jpg",
+        "img4878658955137057480.jpg",
+        "img5052663173972112895.jpg",
+        "img5545093938425253098.jpg",
+        "img5619092315989500347.jpg",
+        "img5720426123554272922.jpg",
+        "img5743950419102221661.jpg",
+        "img6188408940723869074.jpg",
+        "img6256246648820191775.jpg",
+        "img6337233666072365824.jpg",
+        "img6340795963763811555.jpg",
+        "img644430373760202884.jpg",
+        "img654186271418316797.jpg",
+        "img6725132942279184206.jpg",
+        "img6884817847853489168.jpg",
+        "img731931718512596907.jpg",
+        "img7319938981092174005.jpg",
+        "img7368546183917860678.jpg",
+        "img7375809223210191114.jpg",
+        "img7404017517351284801.jpg",
+        "img7927242801547221161.jpg",
+        "img8065913738638093044.jpg",
+        "img8088840775573370204.jpg",
+        "img8115590218015036106.jpg",
+        "img8253552262341804772.jpg",
+        "img831159163218494076.jpg",
+        "img8731839403478785047.JPG",
+        "img8843140679580870846.jpg",
+        "img8937827045191791035.jpg",
+        "img9129018762612794833.jpg",
+        "linum-perenne-aufmacher-3974421-blp-alamy.jpg",
+        "populus-nigra-italica.jpg",
+        "rotdorn_2.jpg"
+    ],
+    "mid": 1652108237906,
+    "name": "PKM::Lexikon::Faktisches::A. Heimat Flora & Fauna",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c41bb7bc-0cdd-11ed-a67a-eba51bd3ce84",
+            "css": "@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');\n\n  .card.nightMode {\n    background-image: url(https://www.schachtheke.de/stuff/sun1.webp);\n    background-position: center top;\n    background-size: cover;\n    background-repeat: no-repeat;\n    height: 200vh; /* unknown why this is needed */\n  }\n\n  .card-wrapper {\n\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n    align-content: end;\n  }\n\n\n  .backside .question {\n    position: relative;\n  }\n\n  .backside .answer {\n    margin-top: 30px;\n    /*overflow-y: scroll;*/\n  }\n\n  /* style for the text areas*/\n  .text-wrapper {\n    margin: 15px;\n    font-size: 40px;\n    padding: 15px;\n    /*background-color: rgba(0,0,0,0.3);*/\n    /*color: #fff;*/\n    background-color: rgba(255,255,255,0.3);\n    color: #333 !important;\n    border-radius: 7px;\n    line-height: 120%;\n    text-align: left;\n    backdrop-filter: blur(10px);\n    font-family: 'Arimo', sans-serif;\n  }\n\n  .backside.question.text-wrapper {\n    font-size: 35px;\n    opacity: 0.7;\n  }\n\n  ul, ol {\n    margin: 10px 0 10px 20px;\n    padding: 0 0 0 30px;\n  }\n\n  /*\n  ul:last-child, ol:last-child {\n    margin-bottom: 0;\n  }\n  */\n\n  /* don't want it (and also need to hide the second one from obsidian) */\n  hr {\n    display: none;\n  }\n\n\n  /* style for obsidian link */\n  .obsidian {\n    color: transparent;\n    width: 100%;\n    overflow: hidden;\n    display: flex;\n    justify-content: flex-end;\n    position: absolute;\n    bottom: 20px;\n    right: 20px;\n  }\n\n  .obsidian > div {\n    width: 100px;\n    height: 30px;\n    /*cursor: pointer;*/\n    background-image: url(https://www.schachtheke.de/stuff/obsidian.png);\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n  }\n\n  .obsidian a {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    color: transparent;\n  }\n\n  /* This line is Added by Cloze Furigana Tools to make its various features work. CFT.260.00*/.hidden {visibility: hidden; font-size: 0;} .hidden .cloze, .cloze .hidden {visibility: visible; background-color: white;font-size: 0.8rem;} @-moz-document url-prefix() {ruby {position: relative;display: inline-block;} ruby rt {position: absolute;display: block;font-size: 0.5em;left: -50%;bottom: 115%;width: 210%;padding: 0;text-align: center;line-height:1em}} .hidden .basemaru {position:relative;} .hidden .basemaru:after {content: \"◯\"; visibility: visible; position:absolute; left:0;} .hidden .cloze .basemaru:after, .cloze .hidden .basemaru:after {visibility: hidden;} div{line-height: 2em;} .cloze_container .hidden {visibility: visible; background-color: white;}",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Trivia",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Obsidian File Link",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Obsidian Context Field",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"card-wrapper backside\">\n  <div class=\"text-wrapper question\">\n    {{Front}}\n    <div class=\"obsidian\">\n      <div>\n        {{Obsidian File Link}}\n      </div>\n    </div>\n  </div>\n\n  <div class=\"text-wrapper answer\">\n    {{Back}}\n  </div>\n\n  {{#Trivia}}\n  <div class=\"text-wrapper answer\">\n    {{Trivia}}\n  </div>\n  {{/Trivia}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div class=\"card-wrapper frontside\">\n  <div class=\"text-wrapper question\">\n    {{Front}}\n  </div>\n</div>"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img7375809223210191114.jpg\">",
+                "<b>Weizen</b><br><br>    Grannen max. sehr kurz<br>    Ähren dicht<br>    Wachstum aufrecht, bei Reife leicht geneigt<br>    Körner von fester, harter Haut umschlossen"
+            ],
+            "guid": "9vPWL",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img3320828528656757041.jpg\"><br><br><img src=\"img654186271418316797.jpg\">",
+                "Falke"
+            ],
+            "guid": "Zc}bB",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img8065913738638093044.jpg\"><br><br><img src=\"img3961644955516148512.jpg\"><br><br><img src=\"img5720426123554272922.jpg\">",
+                "Liguster (giftig)"
+            ],
+            "guid": "HQf<G",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img6884817847853489168.jpg\"><br><br><img src=\"img3323304669907338624.jpg\">",
+                "Forsythia (nicht giftig)"
+            ],
+            "guid": "hJ1lR",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img8088840775573370204.jpg\"><br><br><img src=\"img4485230193232048435.jpg\">",
+                "Stockrose (nicht giftig)"
+            ],
+            "guid": "V^C&Q",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img284053671605772240.jpg\"><br><br><img src=\"img132514941705187689.jpg\">",
+                "Wegwarte (nicht giftig)"
+            ],
+            "guid": "Pu]>9",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img8253552262341804772.jpg\">",
+                "Rosmarin (nicht giftig)"
+            ],
+            "guid": "Idxu5",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ina Lieblingsblumen",
+                "<u>Gerne</u>&nbsp;&nbsp;&nbsp;&nbsp;Fresien, Tulpen, Glockenblume (Campanula), Flieder, Osterglocken, Winterlinge<br><br>\n<u>Nicht</u>&nbsp;&nbsp;&nbsp;&nbsp;Gerbera, Hyazinten, rot (ausser Rosen)"
+            ],
+            "guid": "U}}9E",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bild1<br><img src=\"img7927242801547221161.jpg\"><br><br>Bild 2<br><img src=\"img1794495263249610399.JPG\">",
+                "Bild 1: Gerste, Weizen, Roggen<br>Bild 2: Weizen, Hafer, Gerste"
+            ],
+            "guid": "nvC,5",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img4831728331628091414.jpg\"><br><br><img src=\"img6337233666072365824.jpg\"><br><br><img src=\"img831159163218494076.jpg\">",
+                "Tagpfauenauge"
+            ],
+            "guid": "=Ss;S",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img731931718512596907.jpg\"><br><br><img src=\"img8731839403478785047.JPG\"><br><br><img src=\"img3319990905391744189.jpg\">",
+                "Kohlweißling "
+            ],
+            "guid": "oH?G4",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img4061725225484185889.jpg\"><br><br><img src=\"img1839407586447746457.jpg\"><br><br><img src=\"img1926978956964920727.jpg\">",
+                "Zitronenfalter "
+            ],
+            "guid": "*6G+6",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img4392955075115052199.jpg\"><br><br><img src=\"img7368546183917860678.jpg\">",
+                "Geranie (nicht giftig)"
+            ],
+            "guid": "}C}T4",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img5619092315989500347.jpg\">",
+                "Stiefmütterchen (nicht giftig)<br>(Veilchen ähnlich)"
+            ],
+            "guid": "QGzTJ",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img6725132942279184206.jpg\"><br><br><img src=\"img5743950419102221661.jpg\">",
+                "Primeln · Schlüsselblume (nicht giftig)"
+            ],
+            "guid": "X(p(9",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Calendula_stellata.jpg\" width=\"195\"><br><br><img src=\"Calendula_January_2008-1_filtered.jpg\" width=\"200\">",
+                "Calendula / Ringelblume (nicht giftig)"
+            ],
+            "guid": "s0j3#-$7rP",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Lein-gr.jpg\"><br><br><img src=\"linum-perenne-aufmacher-3974421-blp-alamy.jpg\">",
+                "Lein (nicht giftig)"
+            ],
+            "guid": "h9LS=4@kx?",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Hypericum_perforatum_(5258413313).jpg\"><br><br><img src=\"Hypericum_perforatum_HC1.JPG\"><br><br><img src=\"Johanniskraut_2-1-768x1024.jpg\" width=\"192\">",
+                "Johanniskraut (nicht giftig)"
+            ],
+            "guid": "b`t@PIIJ4r",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Plantago_lanceolata_(inflorescense).jpg\"><br><br><img src=\"Plantago_lanceolata_040807.jpg\">",
+                "Spitzwegerich (nicht giftig)"
+            ],
+            "guid": "G(:ed%f5/P",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Plantago_intermedia_kz1.jpg\"><br><br><img src=\"Plantago_major_02_ies.jpg\">",
+                "Breitwegerich (nicht giftig)"
+            ],
+            "guid": "dKor=(I26;",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img2159297262310809810.jpg\">",
+                "Haubentaucher"
+            ],
+            "guid": "M[XXB",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img1279356711753843331.JPG\">",
+                "Perlhuhn"
+            ],
+            "guid": "DKu6E",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img7319938981092174005.jpg\">",
+                "Blässhuhn"
+            ],
+            "guid": "b5PY4",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img143757135283988312.JPG\">",
+                "Rebhuhn"
+            ],
+            "guid": "JpiS",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img8937827045191791035.jpg\">",
+                "Malve (nicht giftig)"
+            ],
+            "guid": "Q>?#sD+N(",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img435555846658681696.jpg\"><br><br><img src=\"Kornblume02.JPG\">",
+                "Kornblume (nicht giftig)"
+            ],
+            "guid": "o<J6Lagj5S",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Heu-1024x575-c-f.webp\">",
+                "Heu: Gras, als Futter verwendet"
+            ],
+            "guid": "J-<XE=j>R(",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Stroh-1024x575-c-f.webp\">",
+                "Stroh: Getreidereste, Strohballen, Einstreu in Ställen"
+            ],
+            "guid": "eZveZ:i:v:",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"Rotdorn.jpg\" width=\"468\"><br><img src=\"rotdorn_2.jpg\" width=\"462\">",
+                "Rotdorn (nicht giftig)"
+            ],
+            "guid": "IFTX:],Q:K",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"crataegus-laevigata.jpg\" width=\"453\">",
+                "Weißdorn (nicht giftig)"
+            ],
+            "guid": "o9mDU%f1$<",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"SHU_Pappel.webp\" width=\"402\"><br><img src=\"populus-nigra-italica.jpg\" width=\"405\">",
+                "Pappel"
+            ],
+            "guid": "mjFKCGI06C",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"1279px-(MHNT)_Rumex_acetosa_-_Habit.jpg\"><br><br><img src=\"720px-Rumex_acetosa_-_Hapu_oblikas.jpg\"><br><br><img src=\"810px-SauerampferPflanze_(Rumex_acetosa).jpg\">",
+                "Wiesen-Sauerampfer (Blätter wenig giftig)"
+            ],
+            "guid": "uRcwm9Q<5#",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"1080px-Black-eyed_Susan_1.jpg\"><br><br><img src=\"Thunbergia_alata_-_plant_(aka).jpg\">",
+                "schwarzäugige Susanne (nicht giftig)"
+            ],
+            "guid": "nzr-?dN(TR",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"813px-Mulmbock_Ausschlupfloch.jpg\"><br><br><img src=\"1026px-Ergates_faber_larva1.jpg\"><br><br><img src=\"1036px-Ergates_faber_(ninfas).jpg\"><br><br><img src=\"1003px-Ergates_faber_female_up.jpg\">",
+                "Mulmbock (Bockkäfer)"
+            ],
+            "guid": "Lj3i()?o1^",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"bockshornklee-2.jpg\"><br><br><img src=\"bockshornklee-1-534x800.jpg\"><br><br><img src=\"bockshornklee-11.jpg\">",
+                "Bockshornklee (nicht giftig)<br>Samen zum Würzen"
+            ],
+            "guid": "G_!_xkB^|b",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"NSG_Insel_Imchen,_Kladow,_Berlin,_Germany_06.JPG\"><br><br><img src=\"1080px-Kormorane.Formation.Krughorn.jpg\"><br><br><img src=\"Phalacrocorax_carbo02.jpg\">",
+                "Kormoran"
+            ],
+            "guid": "A~@,ov}5K0",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"hecht_kreatiffworld_pixabay-1024x685.jpg\"><br><br><img src=\"960px-Esox_Lucius.JPG\">",
+                "Hecht"
+            ],
+            "guid": "DblOiJW[+(",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img9129018762612794833.jpg\"><br><br><img src=\"img4024098576171120963.jpg\">",
+                "Cosmea (nicht giftig)"
+            ],
+            "guid": "8}X%M",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img275441162952206868.jpg\"><br><br><img src=\"img8115590218015036106.jpg\">",
+                "Enzianstrauch (giftig)"
+            ],
+            "guid": "ja>m1",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img6256246648820191775.jpg\"><br><br><img src=\"img4878658955137057480.jpg\"><br><br><img src=\"img2188801491549619778.jpg\">",
+                "Kugeldistel (nicht giftig)"
+            ],
+            "guid": "%L7`M",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img alt=\"Standort für Hortensien – das gibt es zu beachten | OBI\" src=\"2-hortensien-standort-blpid-00710902.jpg\"><br><img alt=\"\" src=\"Gartenhortensie_in_der_Gesamtansicht,_pink.jpg\">",
+                "Hortensie / Gartenhortensie (giftig)"
+            ],
+            "guid": ">M=3KGsEC",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bilder",
+                "Name"
+            ],
+            "guid": "o:p<fR&86[",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img1134408424217906340.jpg\">",
+                "Roggen <br><br>    Grannen mittellang<br>    Körner länglich<br>    Wachstum straff, in Blütezeit leicht geneigt"
+            ],
+            "guid": ":2ioR",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img6340795963763811555.jpg\">",
+                "<b>Dinkel</b><br><br>Grannen keine<br>Wachstum legen sich leicht um oder brechen ab"
+            ],
+            "guid": "]Anl1",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img5545093938425253098.jpg\">",
+                "<b>1. Dinkel</b><br>2. Emmer oder auch Zweikorn <br><b>3. Winterweizen ohne Grannen</b><br>4. Grannenweizen<br>5. Einkorn"
+            ],
+            "guid": "h{n:Q",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img4365774581279966860.jpg\">",
+                "Gerste<br><br>Grannen lang<br>Wachstum in Frucht geneigt bis hängend"
+            ],
+            "guid": "Zqm!2",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img3547011082824489959.jpg\">",
+                "Mais"
+            ],
+            "guid": "/iWyO",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img644430373760202884.jpg\">",
+                "Hafer "
+            ],
+            "guid": "hPXYK",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img8843140679580870846.jpg\">",
+                "Jasmin (giftig)"
+            ],
+            "guid": "g(&(F",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img6188408940723869074.jpg\"><br><br><img src=\"img2883247556738804705.jpg\">",
+                "Phacelia (nicht giftig)"
+            ],
+            "guid": "D9CVK",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Pflanzen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img2407446959520252821.jpg\">",
+                "Eichelhäher "
+            ],
+            "guid": "yz=X7",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img7404017517351284801.jpg\">",
+                "Blaumeise"
+            ],
+            "guid": "qyk+G",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img4103670415990835267.jpg\">",
+                "Kohlmeise"
+            ],
+            "guid": "wv`NG",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"img5052663173972112895.jpg\">",
+                "Star"
+            ],
+            "guid": "oBqe8",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": [
+                "FF::Tiere"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"16610950475698252398491352650493.jpg\"><br><br><img src=\"166109547005737596741392922894492234043117452670706.jpg\">",
+                "Blaualgen<br><br>- sind keine Algen, sondern <b>Bakterien</b><br>- vermehren sich bei v.a. in flachen und daher warmen Gewässern<br>- Reaktionen durch Verschlucken und Hautkontakt mit den ausgeschiedenen Toxinen: Übelkeit, Erbrechen, Durchfall, Gliederschmerzen, Bindehautentzündungen, Ohrenschmerzen und Atemwegserkrankungen, ... bei intensiven verschlucken auch Lähmung der Lunge (Erstickungsgefahr)<br>- Während einer \"Blüte\" bilden die Blaualgen etwa 20-30 cm unter der Wasseroberfläche einen schwebenden Teppich. Die grünen Schlieren an Ufer sind die angeschwemmten Bakterien.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "!3HwQ",
+            "note_model_uuid": "c41bb7bc-0cdd-11ed-a67a-eba51bd3ce84",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blüten Acer campestre\" src=\"0055pic_more1_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Früchte von Acer campestre\" src=\"0055pic_fruechte_me.jpg\"><br></td></tr></tbody></table>",
+                "Ahorn<br><br><table class=\"table_class_basic_full_width\" style=\"border-collapse: collapse; border: 1px solid;\"><tbody><tr><td style=\"padding: 2px; border: 1px solid;\">Spitz-<br><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"padding: 2px; border: 1px solid;\">Feld-<br><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"padding: 2px; border: 1px solid;\">Berg-<br><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br><br></td><td style=\"padding: 2px; border: 1px solid;\">Eschen-<br><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr></tbody></table><br><br>Früchte von Berg- und Eschenahorn sehr giftig!<br><br>"
+            ],
+            "guid": "kWcZ8-l??X",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus im Frühjahr Familie: Rosaceae\" src=\"0064pic_more3_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus Familie: Rosaceae\" src=\"0064pic_habitus_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0064pic_blatt_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blüten Familie: Rosaceae\" src=\"0064pic_more1_gr.jpg\"><br></td></tr></tbody></table>",
+                "Apfel<br><ul><li>nicht giftig ;-)</li><li>Blütezeit&nbsp;JFM<b>AM</b>JJASOND</li><li>Fruchtreife&nbsp;JFMAMJJA<b>SO</b>ND</li><li>Verwechslung: Wildapfel (oft mit Dornen, Äpfel kaum gerötet, sauer, meist nur Tischtennisball Größe)</li></ul>"
+            ],
+            "guid": "o4QBe4,@~Y",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Hänge-Birke, Weiß-Birke / Betula pendula / Habitus Familie: Betulaceae\" src=\"0066pic_habitus_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Hänge-Birke, Weiß-Birke / Betula pendula / Borke Familie: Betulaceae\" src=\"0066pic_rinde_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Hänge-Birke, Weiß-Birke / Betula pendula / Blatt / Blattoberseite Familie: Betulaceae\" src=\"0066pic_blatt_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Hänge-Birke, Weiß-Birke / Betula pendula / weibliche (oben) und männliche Blüten, mit jungen Familie: Betulaceae\" src=\"0066pic_more3_gr.jpg\"><br></td></tr></tbody></table>",
+                "Hängebirke aka Weißbirke, Sandbirke, Schwarzbirke<br><ul><li>nicht giftig</li><li>Birkenwasser: vor Blattaustrieb einen Ast sägen, v.a. am 1. Tag 2-3 Liter</li><li>Verwechslung: Moorbirke (im Grunde das gleiche...)</li></ul><br>"
+            ],
+            "guid": "g:910G%;$G",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Birne / Pyrus communis / Habitus Familie: Rosaceae\" src=\"0406pic_habitus_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Birne / Pyrus communis / Borke Familie: Rosaceae\" src=\"0406pic_rinde_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Birne / Pyrus communis / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0406pic_blatt_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Birne / Pyrus communis / Blüten Familie: Rosaceae\" src=\"0406pic_bluete_gr.jpg\"><br></td></tr></tbody></table>",
+                "Birne<br><br><ul><li>nicht giftig ;-)</li><li>Blütezeit&nbsp;JFM<b>AM</b>JJASOND</li><li>Fruchtreife&nbsp;JFMAMJJA<b>SO</b>ND<br></li><li>Verwechslung: Wildbirne (häufig als Strauch und mit Dornen, Früchte herb)<br></li></ul>"
+            ],
+            "guid": "xGuZ[Z6uN[",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Gemeine Buche / Fagus sylvatica / Habitus Familie: Fagaceae\" src=\"0074pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Gemeine Buche / Fagus sylvatica / Borke Familie: Fagaceae\" src=\"0074pic_rinde_gr.jpg\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Gemeine Buche / Fagus sylvatica / Früchte Familie: Fagaceae\" src=\"0074pic_fruechte_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Gemeine Buche / Fagus sylvatica / Samen (Bucheckern) Familie: Fagaceae\" src=\"0074pic_more3_gr.jpg\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Gemeine Buche / Fagus sylvatica / Blatt / Blattoberseite Familie: Fagaceae\" src=\"0074pic_blatt_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​</td></tr></tbody></table>",
+                "Buche aka Gemeine Buche, Rotbuche<br><ul><li>Früche leicht giftig</li></ul>"
+            ],
+            "guid": "hg9r;EqBSO",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Eberesche / Sorbus aucuparia / Habitus Familie: Rosaceae\" src=\"0082pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Eberesche / Sorbus aucuparia / Borke Familie: Rosaceae\" src=\"0082pic_rinde_gr.jpg\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Eberesche / Sorbus aucuparia / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0082pic_blatt_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Eberesche / Sorbus aucuparia / Früchte Familie: Rosaceae\" src=\"0082pic_fruechte_gr.jpg\">​</td></tr></tbody></table>",
+                "Ebersche aka Vogelbeerbaum u.v.m.<br><ul><li>rohe Früchte leicht giftig</li><li>gekocht (Saft, Marmelade)eine krasse Vitamin-Bombe<br></li></ul>"
+            ],
+            "guid": "N!pNq`*AQk",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Gemeine Eibe / Taxus baccata / Habitus Familie: Taxaceae\" src=\"0103pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Gemeine Eibe / Taxus baccata / Borke Familie: Taxaceae\" src=\"0103pic_rinde_gr.jpg\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Gemeine Eibe / Taxus baccata / Blüten, männlich Familie: Taxaceae\" src=\"0103pic_more3_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Gemeine Eibe / Taxus baccata / Früchte Familie: Taxaceae\" src=\"0103pic_fruechte_gr.jpg\">​</td></tr></tbody></table>",
+                "Eibe<br><ul><li><span style=\"color: rgb(33, 37, 41); background-color: rgb(255, 255, 255);\">stark giftig: Alle Pflanzenteile mit Ausnahme des roten Samenmantels</span><br></li></ul>"
+            ],
+            "guid": "h6(pYeSER;",
+            "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
