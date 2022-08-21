@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 source="$1"
 target="$2"
