@@ -1,15 +1,5 @@
 const fs = require("fs");
 
-/* todo import
- * (after git pull)
- * ?? use current deck.json as deck.starter.json (only used by newcomers) ??
- * delete & .git-ignore deck.json
- * command `merge-into-deck.js [deck.json]` (user can use starter or own, used before deck.json):
- *   copy deck.json into backup/deck-[timestamp].json
- *   overwrite deck.json[media_files/notes] with corresponding json files
- * (now, do CrowdAnki import from disk)
- */
-
 async function sortMediaFiles(deckFile, writeDeck = readDeck) {
   const deck = JSON.parse(await fs.readFileSync(deckFile, "utf-8"));
   deck.media_files.sort();
@@ -30,7 +20,7 @@ const MEDIA_FILES_FILE = "./deck-media-files.json";
 const NOTES_FILE = "./deck-notes.json";
 
 /**
- * This should be run after you exported the deck from CrowdAnki. It will extract media and notes from your export.
+ * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
  *
  * We will not commit the deck.json itself because meta data should be user-specific. Instead, for the import
  *  we re-assamble the deck.json based on things that we actually want to share in an extra step.
@@ -76,4 +66,26 @@ async function afterExport(exportFolderName) {
   }
 }
 
-module.exports = { sortMediaFiles, sortNotes, afterExport };
+/**
+ * Run this after you git pull'ed the latest updates.
+ *
+ * Based on a CrowdAnki export dir, this will merge notes and media_files with your deck meta data.
+ * (Resulting deck.json will be .gitignore'd.)
+ *
+ * You can now run CrowdAnki import from disk functionality.
+ */
+async function beforeImport(exportFolderName) {
+  // $ node -e 'require("./import-export-helper.js").beforeImport("A._Allgemeinwissen__Heimat_Flora_\&_Fauna")'
+  const deckTemplate = JSON.parse(
+    await fs.readFileSync(`${exportFolderName}/deck.json`, "utf-8")
+  );
+  deckTemplate.media_files = JSON.parse(
+    await fs.readFileSync(MEDIA_FILES_FILE, "utf-8")
+  );
+  deckTemplate.notes = JSON.parse(await fs.readFileSync(NOTES_FILE, "utf-8"));
+  fs.writeFileSync("./deck.json", JSON.stringify(deckTemplate, null, 2), {
+    encoding: "utf-8",
+  });
+}
+
+module.exports = { sortMediaFiles, sortNotes, afterExport, beforeImport };
