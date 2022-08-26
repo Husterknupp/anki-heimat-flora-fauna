@@ -1,3 +1,6 @@
+# File necessary for CrowdAnki import from disk feature - but will get built synthetically on every pull
+deck.json
+
 # Virtual Studio Code
 .history/
 
