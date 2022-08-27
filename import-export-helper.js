@@ -1,44 +1,20 @@
 const fs = require("fs");
 
-async function sortMediaFiles(deckFile, writeDeck = readDeck) {
-  const deck = JSON.parse(await fs.readFileSync(deckFile, "utf-8"));
-  deck.media_files.sort();
-  fs.writeFileSync(writeDeck, JSON.stringify(deck, null, 2), {
-    encoding: "utf-8",
-  });
-}
-
-async function sortNotes(readDeck, writeDeck = readDeck) {
-  const deck = JSON.parse(await fs.readFileSync(readDeck, "utf-8"));
-  deck.notes.sort((a, b) => a.guid.localeCompare(b.guid));
-  fs.writeFileSync(writeDeck, JSON.stringify(deck, null, 2), {
-    encoding: "utf-8",
-  });
-}
-
 const MEDIA_FILES_FILE = "./deck-media-files.json";
 const NOTES_FILE = "./deck-notes.json";
 
 /**
  * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
  *
- * We will not commit the deck.json itself because meta data should be user-specific. Instead, for the import
- *  we re-assamble the deck.json based on things that we actually want to share in an extra step.
+ * We will not commit the deck.json itself because meta data should be user-specific. Instead, in an extra step,
+ *  for the import we will re-assamble the deck.json based on things that we actually want to share.
  *
  * You can now run git commit & push  🤓 Please check the diff before you commit.
  * You will see if you missed importing from remote before you exported.
  */
-async function afterExport(exportFolderName) {
-  // `$ node -e 'require("./import-export-helper.js").afterExport("A._Allgemeinwissen__Heimat_Flora_\&_Fauna")'`
-  if (!fs.existsSync(exportFolderName)) {
-    console.error(
-      `Expected directory to read your CrowdAnki export from - but this does not exist: `
-    );
-    return 1;
-  }
-
+async function afterExport(exportDirName) {
   const deck = JSON.parse(
-    await fs.readFileSync(`${exportFolderName}/deck.json`, "utf-8")
+    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
   );
 
   deck.media_files.sort();
@@ -55,7 +31,7 @@ async function afterExport(exportFolderName) {
     encoding: "utf-8",
   });
 
-  const exportedMedia = `${exportFolderName}/media`;
+  const exportedMedia = `${exportDirName}/media`;
   for await (const maybeImage of await fs.opendirSync(exportedMedia)) {
     // NB: fs.cpSync comes with node v16+
     if (!maybeImage.isFile) continue;
@@ -70,14 +46,13 @@ async function afterExport(exportFolderName) {
  * Run this after you git pull'ed the latest updates.
  *
  * Based on a CrowdAnki export dir, this will merge notes and media_files with your deck meta data.
- * (Resulting deck.json will be .gitignore'd.)
+ * (The resulting deck.json will be .gitignore'd.)
  *
  * You can now run CrowdAnki import from disk functionality.
  */
-async function beforeImport(exportFolderName) {
-  // $ node -e 'require("./import-export-helper.js").beforeImport("A._Allgemeinwissen__Heimat_Flora_\&_Fauna")'
+async function beforeImport(exportDirName) {
   const deckTemplate = JSON.parse(
-    await fs.readFileSync(`${exportFolderName}/deck.json`, "utf-8")
+    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
   );
   deckTemplate.media_files = JSON.parse(
     await fs.readFileSync(MEDIA_FILES_FILE, "utf-8")
@@ -88,4 +63,41 @@ async function beforeImport(exportFolderName) {
   });
 }
 
-module.exports = { sortMediaFiles, sortNotes, afterExport, beforeImport };
+function verifyExists(directory) {
+  if (!fs.existsSync(directory)) {
+    throw Error(
+      `Expected directory to read CrowdAnki export from - but dir does not exist: ${directory}`
+    );
+  }
+}
+
+function runMethod() {
+  const exportDirName = process.argv[3];
+  if (exportDirName) {
+    verifyExists(exportDirName);
+  } else {
+    console.error(
+      'Usage: $ npm run [after-export|before-import] -- "./Heimat_Flora_&_Fauna"\n'
+    );
+    throw Error("Missing export directory argument");
+  }
+
+  const methodName = process.argv[2];
+  switch (methodName) {
+    case "beforeImport": {
+      return beforeImport(exportDirName);
+    }
+    case "afterExport": {
+      return afterExport(exportDirName);
+    }
+    default: {
+      throw Error(
+        `Expected a method name to execute. But ${methodName} does not exist.`
+      );
+    }
+  }
+}
+
+runMethod()
+  .then(() => console.log("Done."))
+  .catch(console.error);

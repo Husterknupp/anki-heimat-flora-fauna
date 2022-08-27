@@ -1,0 +1,22 @@
+{
+  "name": "anki-heimat-flora-fauna",
+  "version": "1.0.0",
+  "description": "Anki deck of nature stuff \"you should just know about\"",
+  "scripts": {
+    "after-export": "node ./import-export-helper.js afterExport",
+    "before-import": "node ./import-export-helper.js beforeImport"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Husterknupp/anki-heimat-flora-fauna.git"
+  },
+  "keywords": [
+    "anki-flashcards"
+  ],
+  "author": "husterknupp,pat-richter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Husterknupp/anki-heimat-flora-fauna/issues"
+  },
+  "homepage": "https://github.com/Husterknupp/anki-heimat-flora-fauna#readme"
+}
