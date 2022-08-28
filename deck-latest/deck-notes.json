@@ -474,6 +474,19 @@
   {
     "__type__": "Note",
     "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Trauben-Eiche / Quercus petraea / Habitus Familie: Fagaceae\" src=\"0049pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Trauben-Eiche / Quercus petraea / Borke Familie: Fagaceae\" src=\"0049pic_rinde_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Stiel-Eiche / Quercus robur / Blatt / Blattoberseite Familie: Fagaceae\" src=\"0001pic_blatt_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Trauben-Eiche / Quercus petraea / Blatt / Blattoberseite Familie: Fagaceae\" src=\"0049pic_blatt_gr.jpg\">​</td></tr></tbody></table><br>",
+      "Eiche<br><ul><li>sehr nährstoffhaltig!</li><ul><li>hervoragendes Tierfutter</li><li>kann auch zu Mehl verarbeitet werden (dazu die Eicheln entbittern, um Gerbstoffe zu lösen: mehrfach mehrere Stunden mit warmem Wasser einweichen, bis es klar bleibt)</li></ul><li>Blütezeit&nbsp;JFM<b>AM</b>JJASOND</li><li>Fruchtreife&nbsp;JFMAMJJA<b>SO</b>ND</li><li>Unterscheidung Stieleiche (links) und Blatteiche (rechts) v.a. am Blattende (Keilform, längerer Stiel)</li></ul>",
+      "",
+      "",
+      ""
+    ],
+    "guid": "KDJ@<LM,C#",
+    "note_model_uuid": "c41bb7bc-0cdd-11ed-a67a-eba51bd3ce84",
+    "tags": []
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blüten Acer campestre\" src=\"0055pic_more1_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Früchte von Acer campestre\" src=\"0055pic_fruechte_me.jpg\"><br></td></tr></tbody></table>",
       "Ahorn<br><br><table class=\"table_class_basic_full_width\" style=\"border-collapse: collapse; border: 1px solid;\"><tbody><tr><td style=\"padding: 2px; border: 1px solid;\">Spitz-<br><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"padding: 2px; border: 1px solid;\">Feld-<br><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"padding: 2px; border: 1px solid;\">Berg-<br><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br><br></td><td style=\"padding: 2px; border: 1px solid;\">Eschen-<br><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr></tbody></table><br><br>Früchte von Berg- und Eschenahorn sehr giftig!<br><br>"
     ],
