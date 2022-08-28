@@ -16,15 +16,20 @@ $ npm run after-export -- "./Heimat_Flora_&_Fauna"
 
 ## Import from Disk
 
-Note: CrowdAnki will maintain learning progress also when a card receives an update
+CrowdAnki expects notes and media_files in a certain format, which includes your personal deck meta data (like learning steps).
+While CrowdAnki will maintain your learning progress (even when a card receives an update), this script will help to update only the cards, not meta data.
 
 - pull the latest changes of the `main` branch
-- CrowdAnki expects notes and media_files in a certain format that also has your deck meta data (for the meta data, you need a former CrowdAnki export to run this script)
+- export your personal deck to merge it with new updates
+  - use CrowdAnki (see screenshot above)
+  - copy it into `anki-heimat-flora-fauna`
+- run the merge script, which creates an updated deck.json in `deck-latest`
+
 
 ```sh
-$ npm run before-import -- "./Heimat_Flora_&_Fauna"
+$ npm run before-import -- "./<your-deck-folder>"
 ```
 
 - after the script did run, in Anki open "File > CrowdAnki: Import from disk"
-- chose this project directory
-- you may leave the default settings ![](screenshot-import.png)
+- chose `deck-latest` and leave the
+- you may leave the default settings (don't tick the fields under "Einfach" to get the updated cards) ![](screenshot-import.png)

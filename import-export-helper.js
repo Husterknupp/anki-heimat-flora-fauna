@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-const MEDIA_FILES_FILE = "./deck-media-files.json";
-const NOTES_FILE = "./deck-notes.json";
+const MEDIA_FILES_FILE = "./deck-latest/deck-media-files.json";
+const NOTES_FILE = "./deck-latest/deck-notes.json";
 
 /**
  * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
@@ -37,7 +37,7 @@ async function afterExport(exportDirName) {
     if (!maybeImage.isFile) continue;
     fs.copyFileSync(
       `${exportedMedia}/${maybeImage.name}`,
-      `./media/${maybeImage.name}`
+      `./deck-latest/media/${maybeImage.name}`
     );
   }
 }
@@ -58,7 +58,7 @@ async function beforeImport(exportDirName) {
     await fs.readFileSync(MEDIA_FILES_FILE, "utf-8")
   );
   deckTemplate.notes = JSON.parse(await fs.readFileSync(NOTES_FILE, "utf-8"));
-  fs.writeFileSync("./deck.json", JSON.stringify(deckTemplate, null, 2), {
+  fs.writeFileSync("./deck-latest/deck.json", JSON.stringify(deckTemplate, null, 2), {
     encoding: "utf-8",
   });
 }

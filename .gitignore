@@ -1,8 +1,9 @@
 # File necessary for CrowdAnki import from disk feature - but will get built synthetically on every pull
-deck.json
+deck-latest/deck.json
 
-# Virtual Studio Code
+# IDE Helpers: Virtual Studio Code, IntelliJ
 .history/
+.idea
 
 # CrowdAnki exports
 A._Allgemeinwissen__Heimat_flora_\&_Fauna/
