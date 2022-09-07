@@ -4,6 +4,32 @@ const MEDIA_FILES_FILE = "./deck/media-files.json";
 const NOTES_FILE = "./deck/notes.json";
 const DECK_FILE = "./deck/deck.json";
 
+function readFileAsJson(fileName) {
+  return JSON.parse(fs.readFileSync(fileName, "utf-8"));
+}
+
+function writeJsonToFile(fileName, content) {
+  fs.writeFileSync(fileName, JSON.stringify(content, null, 2), {
+    encoding: "utf-8",
+  });
+}
+
+function sanityCheckNoteModels(deck) {
+  const note_models = deck.note_models.map(
+    (note_model) => note_model.crowdanki_uuid
+  );
+
+  const problem = deck.notes
+    .map((note) => note.note_model_uuid)
+    .find((id) => !note_models.includes(id));
+
+  if (problem) {
+    console.warn(
+      `[WARNING] One of the notes' note_model ID does not exist in your deck meta data. Look at ID '${problem}' in ${NOTES_FILE} .`
+    );
+  }
+}
+
 /**
  * Run this after you git pull'ed the latest updates.
  *
@@ -13,16 +39,20 @@ const DECK_FILE = "./deck/deck.json";
  * You can now run CrowdAnki import from disk functionality.
  */
 async function beforeImport(exportDirName) {
-  const deckTemplate = JSON.parse(
-    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
-  );
-  deckTemplate.media_files = JSON.parse(
-    await fs.readFileSync(MEDIA_FILES_FILE, "utf-8")
-  );
-  deckTemplate.notes = JSON.parse(await fs.readFileSync(NOTES_FILE, "utf-8"));
-  fs.writeFileSync(DECK_FILE, JSON.stringify(deckTemplate, null, 2), {
-    encoding: "utf-8",
-  });
+  const deckTemplate = readFileAsJson(`${exportDirName}/deck.json`);
+  deckTemplate.media_files = readFileAsJson(MEDIA_FILES_FILE);
+  deckTemplate.notes = readFileAsJson(NOTES_FILE);
+
+  sanityCheckNoteModels(deckTemplate);
+  writeJsonToFile(DECK_FILE, deckTemplate);
+}
+
+async function copyMedia(from, to) {
+  for await (const maybeImage of await fs.opendirSync(from)) {
+    // NB: fs.cpSync comes with node v16+
+    if (!maybeImage.isFile) continue;
+    fs.copyFileSync(`${from}/${maybeImage.name}`, `${to}/${maybeImage.name}`);
+  }
 }
 
 /**
@@ -35,29 +65,15 @@ async function beforeImport(exportDirName) {
  * You will see if you missed importing from remote before you exported.
  */
 async function afterExport(exportDirName) {
-  const { media_files, notes } = JSON.parse(
-    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
-  );
+  const { media_files, notes } = readFileAsJson(`${exportDirName}/deck.json`);
 
   media_files.sort();
-  fs.writeFileSync(MEDIA_FILES_FILE, JSON.stringify(media_files, null, 2), {
-    encoding: "utf-8",
-  });
+  writeJsonToFile(MEDIA_FILES_FILE, media_files);
 
   notes.sort((a, b) => a.guid.localeCompare(b.guid));
-  fs.writeFileSync(NOTES_FILE, JSON.stringify(notes, null, 2), {
-    encoding: "utf-8",
-  });
+  writeJsonToFile(NOTES_FILE, notes);
 
-  const exportedMedia = `${exportDirName}/media`;
-  for await (const maybeImage of await fs.opendirSync(exportedMedia)) {
-    // NB: fs.cpSync comes with node v16+
-    if (!maybeImage.isFile) continue;
-    fs.copyFileSync(
-      `${exportedMedia}/${maybeImage.name}`,
-      `./deck/media/${maybeImage.name}`
-    );
-  }
+  copyMedia(`${exportDirName}/media`, "./deck/media");
 }
 
 function verifyExists(directory) {
@@ -66,7 +82,7 @@ function verifyExists(directory) {
   }
 }
 
-function runMethod() {
+function run() {
   const exportDirName = process.argv[3];
   if (exportDirName) {
     verifyExists(exportDirName);
@@ -94,7 +110,7 @@ function runMethod() {
 }
 
 try {
-  runMethod();
+  run();
   console.log("Done.");
 } catch (e) {
   console.error(e);
