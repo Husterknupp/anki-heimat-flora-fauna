@@ -1,1 +1,9 @@
+# File necessary for CrowdAnki import from disk feature - but will get built synthetically on every pull
+# holds user specific deck meta data that's why we don't add it to git
+deck/deck.json
+
+# IDE Helpers: Virtual Studio Code, IntelliJ
 .history/
+.idea
+
+# NB not ignoring CrowdAnki exports (one entry per user doesn't scale very well)
