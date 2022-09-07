@@ -5,45 +5,6 @@ const NOTES_FILE = "./deck/notes.json";
 const DECK_FILE = "./deck/deck.json";
 
 /**
- * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
- *
- * We will not commit the deck.json itself because meta data is user-specific.
- * Instead, in an extra step, for the import we will re-assamble the deck.json.
- *
- * You can now run git commit & push  🤓 Please check the diff before you commit.
- * You will see if you missed importing from remote before you exported.
- */
-async function afterExport(exportDirName) {
-  const deck = JSON.parse(
-    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
-  );
-
-  deck.media_files.sort();
-  fs.writeFileSync(
-    MEDIA_FILES_FILE,
-    JSON.stringify(deck.media_files, null, 2),
-    {
-      encoding: "utf-8",
-    }
-  );
-
-  deck.notes.sort((a, b) => a.guid.localeCompare(b.guid));
-  fs.writeFileSync(NOTES_FILE, JSON.stringify(deck.notes, null, 2), {
-    encoding: "utf-8",
-  });
-
-  const exportedMedia = `${exportDirName}/media`;
-  for await (const maybeImage of await fs.opendirSync(exportedMedia)) {
-    // NB: fs.cpSync comes with node v16+
-    if (!maybeImage.isFile) continue;
-    fs.copyFileSync(
-      `${exportedMedia}/${maybeImage.name}`,
-      `./deck/media/${maybeImage.name}`
-    );
-  }
-}
-
-/**
  * Run this after you git pull'ed the latest updates.
  *
  * Based on a CrowdAnki export directory, this will merge notes and media_files with that directory's deck meta data.
@@ -64,11 +25,44 @@ async function beforeImport(exportDirName) {
   });
 }
 
+/**
+ * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
+ *
+ * We will not commit the deck.json itself because meta data is user-specific.
+ * Instead, in an extra step, for the import we will re-assamble the deck.json.
+ *
+ * You can now run git commit & push  🤓 Please check the diff before you commit.
+ * You will see if you missed importing from remote before you exported.
+ */
+async function afterExport(exportDirName) {
+  const { media_files, notes } = JSON.parse(
+    await fs.readFileSync(`${exportDirName}/deck.json`, "utf-8")
+  );
+
+  media_files.sort();
+  fs.writeFileSync(MEDIA_FILES_FILE, JSON.stringify(media_files, null, 2), {
+    encoding: "utf-8",
+  });
+
+  notes.sort((a, b) => a.guid.localeCompare(b.guid));
+  fs.writeFileSync(NOTES_FILE, JSON.stringify(notes, null, 2), {
+    encoding: "utf-8",
+  });
+
+  const exportedMedia = `${exportDirName}/media`;
+  for await (const maybeImage of await fs.opendirSync(exportedMedia)) {
+    // NB: fs.cpSync comes with node v16+
+    if (!maybeImage.isFile) continue;
+    fs.copyFileSync(
+      `${exportedMedia}/${maybeImage.name}`,
+      `./deck/media/${maybeImage.name}`
+    );
+  }
+}
+
 function verifyExists(directory) {
   if (!fs.existsSync(directory)) {
-    throw Error(
-      `Expected directory to read CrowdAnki export from - but dir does not exist: ${directory}`
-    );
+    throw Error(`Directory does not exist: ${directory}`);
   }
 }
 
@@ -99,6 +93,9 @@ function runMethod() {
   }
 }
 
-runMethod()
-  .then(() => console.log("Done."))
-  .catch(console.error);
+try {
+  runMethod();
+  console.log("Done.");
+} catch (e) {
+  console.error(e);
+}
