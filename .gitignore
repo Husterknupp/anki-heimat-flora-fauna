@@ -1,10 +1,9 @@
 # File necessary for CrowdAnki import from disk feature - but will get built synthetically on every pull
-deck-latest/deck.json
+# holds user specific deck meta data that's why we don't add it to git
+deck/deck.json
 
 # IDE Helpers: Virtual Studio Code, IntelliJ
 .history/
 .idea
 
-# CrowdAnki exports
-A._Allgemeinwissen__Heimat_flora_\&_Fauna/
-PKM__Lexikon__Faktisches__A._Heimat_Flora_\&_Fauna/
+# NB not ignoring CrowdAnki exports (one entry per user doesn't scale very well)

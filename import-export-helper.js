@@ -1,13 +1,14 @@
 const fs = require("fs");
 
-const MEDIA_FILES_FILE = "./deck-latest/deck-media-files.json";
-const NOTES_FILE = "./deck-latest/deck-notes.json";
+const MEDIA_FILES_FILE = "./deck/media-files.json";
+const NOTES_FILE = "./deck/notes.json";
+const DECK_FILE = "./deck/deck.json";
 
 /**
  * Run this after you exported the deck from CrowdAnki. It will extract media and notes from your export.
  *
- * We will not commit the deck.json itself because meta data should be user-specific. Instead, in an extra step,
- *  for the import we will re-assamble the deck.json based on things that we actually want to share.
+ * We will not commit the deck.json itself because meta data is user-specific.
+ * Instead, in an extra step, for the import we will re-assamble the deck.json.
  *
  * You can now run git commit & push  🤓 Please check the diff before you commit.
  * You will see if you missed importing from remote before you exported.
@@ -37,7 +38,7 @@ async function afterExport(exportDirName) {
     if (!maybeImage.isFile) continue;
     fs.copyFileSync(
       `${exportedMedia}/${maybeImage.name}`,
-      `./deck-latest/media/${maybeImage.name}`
+      `./deck/media/${maybeImage.name}`
     );
   }
 }
@@ -45,7 +46,7 @@ async function afterExport(exportDirName) {
 /**
  * Run this after you git pull'ed the latest updates.
  *
- * Based on a CrowdAnki export dir, this will merge notes and media_files with your deck meta data.
+ * Based on a CrowdAnki export directory, this will merge notes and media_files with that directory's deck meta data.
  * (The resulting deck.json will be .gitignore'd.)
  *
  * You can now run CrowdAnki import from disk functionality.
@@ -58,7 +59,7 @@ async function beforeImport(exportDirName) {
     await fs.readFileSync(MEDIA_FILES_FILE, "utf-8")
   );
   deckTemplate.notes = JSON.parse(await fs.readFileSync(NOTES_FILE, "utf-8"));
-  fs.writeFileSync("./deck-latest/deck.json", JSON.stringify(deckTemplate, null, 2), {
+  fs.writeFileSync(DECK_FILE, JSON.stringify(deckTemplate, null, 2), {
     encoding: "utf-8",
   });
 }
