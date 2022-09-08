@@ -3,6 +3,7 @@ const fs = require("fs");
 const MEDIA_FILES_FILE = "./deck/media-files.json";
 const NOTES_FILE = "./deck/notes.json";
 const DECK_FILE = "./deck/deck.json";
+const MEDIA_DIR = "./deck/media";
 
 function readFileAsJson(fileName) {
   return JSON.parse(fs.readFileSync(fileName, "utf-8"));
@@ -73,7 +74,7 @@ async function afterExport(exportDirName) {
   notes.sort((a, b) => a.guid.localeCompare(b.guid));
   writeJsonToFile(NOTES_FILE, notes);
 
-  copyMedia(`${exportDirName}/media`, "./deck/media");
+  copyMedia(`${exportDirName}/media`, MEDIA_DIR);
 }
 
 function verifyExists(directory) {
