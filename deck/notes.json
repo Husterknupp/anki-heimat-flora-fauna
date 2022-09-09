@@ -19,7 +19,9 @@
     ],
     "guid": "!3HwQ",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -293,7 +295,9 @@
     ],
     "guid": "g:910G%;$G",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -351,7 +355,9 @@
     ],
     "guid": "h6(pYeSER;",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -373,7 +379,21 @@
     ],
     "guid": "hg9r;EqBSO",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n    <tbody>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220906_151212004.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220906_151134192.jpg\"><br></td></tr>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220906_151148462.jpg\"></td>\n            </tr></tbody></table><br>",
+      "Robinie"
+    ],
+    "guid": "hH|8![M~?+",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -479,7 +499,9 @@
     ],
     "guid": "KDJ@<LM,C#",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -489,7 +511,21 @@
     ],
     "guid": "kWcZ8-l??X",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n    <tbody>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220909_144307058.MP.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_144327189.jpg\"><br></td></tr>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220909_144312471.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220909_144339045.jpg\"></td>\n            </tr></tbody></table><br>",
+      "Lorbeerkirsche / Kirschlorbeer (giftig, vor allem Kerne und Blätter)<br><br>ist kein Lorbeer, sondern eine Kirsche<br><br>Lorbeer vs. Kirschlorbeer:<br><ul><li>Lorbeer zum Würzen</li><li>Blätter matt vs. glänzend</li></ul>"
+    ],
+    "guid": "l#{^MZ@}z)",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -535,7 +571,9 @@
     ],
     "guid": "N!pNq`*AQk",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -544,6 +582,18 @@
       "Bild 1: Gerste, Weizen, Roggen<br>Bild 2: Weizen, Hafer, Gerste"
     ],
     "guid": "nvC,5",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<img src=\"PXL_20220823_132542450.jpg\">",
+      "Riesen-Goldrute (nicht giftig)<br><br>aka Stolzer Heinrich"
+    ],
+    "guid": "Nz_WAy,)<-",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
     "tags": [
       "FF::Pflanzen"
@@ -581,7 +631,9 @@
     ],
     "guid": "o4QBe4,@~Y",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
@@ -682,6 +734,18 @@
   {
     "__type__": "Note",
     "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101527582.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220813_101535035.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101532427.jpg\"><br></td></tr></tbody></table>\n\n",
+      "Feuerdorn (Samen in den Früchten leicht giftig)"
+    ],
+    "guid": "s!Zhb(,Wvy",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<img src=\"Calendula_stellata.jpg\" width=\"195\"><br><br><img src=\"Calendula_January_2008-1_filtered.jpg\" width=\"200\">",
       "Calendula / Ringelblume (nicht giftig)"
     ],
@@ -698,6 +762,18 @@
       "gewöhnliche Mahonie (meiste Teile giftig, Beeren in kleinen Mengen essbar)<br><br>Berberitzengewächse"
     ],
     "guid": "SSY6O",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n    <tbody>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151634521.MP.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151638409.MP.jpg\"><br></td></tr>\n</tbody></table><br>",
+      "Efeu (Beeren sehr giftig, Grünzeug verursacht nur Hautreizungen)"
+    ],
+    "guid": "tlB&T]Xm9:",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
     "tags": [
       "FF::Pflanzen"
@@ -771,7 +847,21 @@
     ],
     "guid": "xGuZ[Z6uN[",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": []
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n    <tbody>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220817_171418962.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220817_171422204.jpg\"><br></td></tr>\n        </tbody></table><br>",
+      "Petunien (grüne Pflanzenteile leicht giftig)"
+    ],
+    "guid": "y./IdDLBi>",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
   },
   {
     "__type__": "Note",
