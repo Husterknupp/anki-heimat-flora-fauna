@@ -734,7 +734,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101527582.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220813_101535035.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101532427.jpg\"><br></td></tr></tbody></table>\n\n",
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\"><br>                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101527582.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220813_101535035.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img src=\"PXL_20220813_101532427.jpg\"><br></td></tr></tbody></table><br><br>",
       "Feuerdorn (Samen in den Früchten leicht giftig)"
     ],
     "guid": "s!Zhb(,Wvy",
@@ -770,7 +770,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n    <tbody>\n        <tr>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151634521.MP.jpg\"></td>\n            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151638409.MP.jpg\"><br></td></tr>\n</tbody></table><br>",
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">    <tbody>        <tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151634521.MP.jpg\"></td>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151638409.MP.jpg\"><br></td></tr><tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img6923510883650884492.jpg\"></td>            </tr></tbody></table><br>",
       "Efeu (Beeren sehr giftig, Grünzeug verursacht nur Hautreizungen)"
     ],
     "guid": "tlB&T]Xm9:",
