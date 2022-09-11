@@ -806,6 +806,16 @@
   {
     "__type__": "Note",
     "fields": [
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Schwarz-Erle / Alnus glutinosa / Habitus Familie: Betulaceae\" src=\"0069pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Schwarz-Erle / Alnus glutinosa / Borke Familie: Betulaceae\" src=\"0069pic_rinde_gr.jpg\"></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Schwarz-Erle / Alnus glutinosa / Blatt / Blattoberseite Familie: Betulaceae\" src=\"0069pic_blatt_gr.jpg\" data-editor-shrink=\"true\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Schwarz-Erle / Alnus glutinosa / Früchte Familie: Betulaceae\" src=\"0069pic_fruechte_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Schwarz-Erle / Alnus glutinosa / verholzte Zapfen vom Vorjahr Familie: Betulaceae\" src=\"0069pic_more2_gr.jpg\"></td></tr></tbody></table>",
+      "Schwarzerle<br><ul><li>nicht giftig</li><li>häufig an Gewässern, Auen, Mooren</li><li>Es gibt außerdem Grün-Erle (nur strauchartig) und Grau-Erle... beide sind wesentlich seltener, eher an Hanglagen</li></ul>"
+    ],
+    "guid": "v-,,n*noiJ",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<img src=\"img8088840775573370204.jpg\"><br><br><img src=\"img4485230193232048435.jpg\">",
       "Stockrose (nicht giftig)<br><br>Malvengewächse<br>- Stockrose<br>- Wilde Malve<br>- Hibiskus <br>- .."
     ],
