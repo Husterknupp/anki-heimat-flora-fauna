@@ -74,7 +74,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<img src=\"img6256246648820191775.jpg\"><br><br><img src=\"img4878658955137057480.jpg\"><br><br><img src=\"img2188801491549619778.jpg\">",
+      "<table>\n    <tbody>\n        <tr>\n            <td><img src=\"img6256246648820191775.jpg\"></td>\n            <td><img src=\"img4878658955137057480.jpg\"></td>\n        </tr>\n        <tr>\n            <td><img src=\"img2188801491549619778.jpg\"></td>\n        </tr>\n    </tbody>\n</table>\n",
       "Kugeldistel (nicht giftig)"
     ],
     "guid": "%L7`M",
@@ -82,6 +82,16 @@
     "tags": [
       "FF::Pflanzen"
     ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<img src=\"img2670803253521781946.jpg\"><br><img src=\"img7257614361520752051.jpg\"><br><img src=\"img9106432364083436740.jpg\">",
+      "Rucola (nicht giftig)"
+    ],
+    "guid": "<wBxE",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
   },
   {
     "__type__": "Note",
@@ -135,7 +145,7 @@
     "__type__": "Note",
     "fields": [
       "<img src=\"img7375809223210191114.jpg\">",
-      "<b>Weizen</b><br><br>    Grannen max. sehr kurz<br>    Ähren dicht<br>    Wachstum aufrecht, bei Reife leicht geneigt<br>    Körner von fester, harter Haut umschlossen"
+      "<b>Weizen</b><br><br>Grannen max. sehr kurz<br>Ähren dicht<br>Wachstum aufrecht, bei Reife leicht geneigt"
     ],
     "guid": "9vPWL",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
@@ -195,7 +205,7 @@
     "__type__": "Note",
     "fields": [
       "<img alt=\"Sind Koniferen giftig? Infos zu 8 Heckenpflanzen und Alternativen für  Kinder und Haustiere\" src=\"koniferen-giftig-thuja-lebensbaum-145335440-fl.jpg\"><br><br><img alt=\"4 schnellwachsende Koniferen für eine blickdichte Hecke ohne Warterei\" src=\"schnellwachsende-koniferen.jpg\"><br><br><img alt=\"Koniferen düngen: Tipps zum Düngen von Thuja &amp; Co.\" src=\"Konifere-als-Hecke-1024x576.jpg\">",
-      "Koniferen (schwach bis giftig)<br><br>Koniferen (Ordnung)<br>- Zypressen (Familie)<br>-- Wacholder (kriechend niedrige Höhe)<br>-- Lebensbaum/Thuja<br>- Kiefern<br>- Eiben"
+      "Koniferen (schwach bis giftig)<br><br>Koniferen <small>Ordnung</small><br>- Zypressen <small>Familie</small><br>-- Wacholder (kriechend niedrige Höhe)<br>-- Lebensbaum/Thuja<br>- Kiefern<br>- Eiben"
     ],
     "guid": "bW5g9",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
@@ -470,7 +480,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<img src=\"img275441162952206868.jpg\"><br><br><img src=\"img8115590218015036106.jpg\">",
+      "<table>\n    <tbody>\n        <tr>\n            <td><img src=\"img275441162952206868.jpg\"></td>\n            <td><img src=\"img8115590218015036106.jpg\"></td>\n        </tr>\n    </tbody>\n</table>",
       "Enzianstrauch (giftig)"
     ],
     "guid": "ja>m1",
@@ -567,7 +577,7 @@
     "__type__": "Note",
     "fields": [
       "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\"><br>                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Eberesche / Sorbus aucuparia / Habitus Familie: Rosaceae\" src=\"0082pic_habitus_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Eberesche / Sorbus aucuparia / Borke Familie: Rosaceae\" src=\"0082pic_rinde_gr.jpg\">​</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\">​<img alt=\"Eberesche / Sorbus aucuparia / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0082pic_blatt_gr.jpg\"></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Eberesche / Sorbus aucuparia / Früchte Familie: Rosaceae\" src=\"0082pic_fruechte_gr.jpg\">​</td></tr></tbody></table>",
-      "Ebersche aka Vogelbeerbaum u.v.m.<br><ul><li>rohe Früchte leicht giftig</li><li>gekocht (Saft, Marmelade)eine krasse Vitamin-Bombe<br></li><li>Esche vs. Eberesche: Nussige vs. Rote Beerenfrüchte + groß vs. klein</li><br></ul>"
+      "Ebersche aka Vogelbeerbaum u.v.m.<br><ul><li>rohe Früchte leicht giftig</li><li>gekocht (Saft, Marmelade) eine krasse Vitamin-Bombe<br></li><li>Esche vs. Eberesche: Nussige vs. Rote Beerenfrüchte + groß vs. klein</li><br></ul>"
     ],
     "guid": "N!pNq`*AQk",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
