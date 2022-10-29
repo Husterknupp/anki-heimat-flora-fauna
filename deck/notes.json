@@ -204,7 +204,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<img alt=\"Sind Koniferen giftig? Infos zu 8 Heckenpflanzen und Alternativen für  Kinder und Haustiere\" src=\"koniferen-giftig-thuja-lebensbaum-145335440-fl.jpg\"><br><br><img alt=\"4 schnellwachsende Koniferen für eine blickdichte Hecke ohne Warterei\" src=\"schnellwachsende-koniferen.jpg\"><br><br><img alt=\"Koniferen düngen: Tipps zum Düngen von Thuja &amp; Co.\" src=\"Konifere-als-Hecke-1024x576.jpg\">",
+      "<table>\n  <tbody><tr><td><img alt=\"Sind Koniferen giftig? Infos zu 8 Heckenpflanzen und Alternativen für  Kinder und Haustiere\" src=\"koniferen-giftig-thuja-lebensbaum-145335440-fl.jpg\"></td><td><img alt=\"4 schnellwachsende Koniferen für eine blickdichte Hecke ohne Warterei\" src=\"schnellwachsende-koniferen.jpg\"></td></tr>\n  <tr><td><img alt=\"Koniferen düngen: Tipps zum Düngen von Thuja &amp; Co.\" src=\"Konifere-als-Hecke-1024x576.jpg\"></td></tr>\n</tbody></table>",
       "Koniferen (schwach bis giftig)<br><br>Koniferen <small>Ordnung</small><br>- Zypressen <small>Familie</small><br>-- Wacholder (kriechend niedrige Höhe)<br>-- Lebensbaum/Thuja<br>- Kiefern<br>- Eiben"
     ],
     "guid": "bW5g9",
@@ -464,6 +464,16 @@
     "tags": [
       "FF::Pflanzen"
     ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table>\n  <tbody><tr><td><img src=\"img6235698638001580711.jpg\"></td><td><img src=\"img7147766934263923798.jpg\"></td></tr>\n    <tr><td><img src=\"img7010085539036539312.jpg\"></td><td><img src=\"Brombeere-a705aa63c692f51c87ea04bb12b378eb68e182a1.jpg\"></td></tr>\n</tbody></table>",
+      "Brombeere<li>nicht giftig ;-)</li><li>Fruchtreife&nbsp;JFMAMJ<b>JASO</b>ND</li><li>Blütezeit&nbsp;JFMA<b>MJJA</b>SOND</li>"
+    ],
+    "guid": "ivuZB",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
   },
   {
     "__type__": "Note",
@@ -780,7 +790,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">    <tbody>        <tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151634521.MP.jpg\"></td>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"PXL_20220909_151638409.MP.jpg\"><br></td></tr><tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img6923510883650884492.jpg\"></td>            </tr></tbody></table><br>",
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">    <tbody>        <tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img7591841393564347744.jpg\"></td>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img9027222189224409689.jpg\"><br></td></tr><tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img6923510883650884492.jpg\"></td>            </tr></tbody></table><br>",
       "Efeu (Beeren sehr giftig, Grünzeug verursacht nur Hautreizungen)"
     ],
     "guid": "tlB&T]Xm9:",
