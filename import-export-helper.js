@@ -49,11 +49,14 @@ async function beforeImport(exportDirName) {
 }
 
 async function copyMedia(from, to) {
+  let count = 0;
   for await (const maybeImage of await fs.opendirSync(from)) {
     // NB: fs.cpSync comes with node v16+
     if (!maybeImage.isFile) continue;
     fs.copyFileSync(`${from}/${maybeImage.name}`, `${to}/${maybeImage.name}`);
+    count++;
   }
+  return count;
 }
 
 /**
@@ -65,7 +68,7 @@ async function copyMedia(from, to) {
  * You can now run git commit & push  🤓 Please check the diff before you commit.
  * You will see if you missed importing from remote before you exported.
  */
-async function afterExport(exportDirName) {
+function afterExport(exportDirName) {
   const { media_files, notes } = readFileAsJson(`${exportDirName}/deck.json`);
 
   media_files.sort();
@@ -74,7 +77,9 @@ async function afterExport(exportDirName) {
   notes.sort((a, b) => a.guid.localeCompare(b.guid));
   writeJsonToFile(NOTES_FILE, notes);
 
-  copyMedia(`${exportDirName}/media`, MEDIA_DIR);
+  copyMedia(`${exportDirName}/media`, MEDIA_DIR).then((count) => {
+    console.log(`Wrote json files and copied ${count} images`);
+  });
 }
 
 function verifyExists(directory) {
@@ -94,6 +99,11 @@ function run() {
     throw Error("Missing export directory argument");
   }
 
+  // todo remember commit history (at which commit did the command run the last time?)
+  // In case I accidentally pulled already, I can reset to that state
+  // and git is able to show a merge conflict
+  // -> this is probably more effective as a git-hook that runs after every git-pull
+  // todo print out helper for next step: before-import: Which directory to import | after-export: no. of files moved or something
   const methodName = process.argv[2];
   switch (methodName) {
     case "beforeImport": {
