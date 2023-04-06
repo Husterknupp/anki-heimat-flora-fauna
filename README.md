@@ -6,7 +6,8 @@ You will need the CrowdAnki Addon: https://github.com/Stvad/CrowdAnki
 
 ## Share New Notes/Cards on GitHub
 
-- ❗️ first import the latest & greates (notes will get lost in git if you don't run the import first)
+- ❗️ first import if you have pulled the latest & greatest from remote (notes will get lost in git if you don't run the import first)
+- (if you first run the export, commit and then do a git pull, yours and other people's changes will get merged by git)
 - in Anki, open "File > Export" ![](screenshot-export.png)
 - as destination dir, select any directory (probably outside this project to not commit the export)
 - then, the exported content will live in a directory with the same name that it has in your Anki

@@ -2,6 +2,30 @@
   {
     "__type__": "Note",
     "fields": [
+      "<br><br><br><br><table><tbody>  <tr><td><img src=\"fichte-zapfen.png\" width=\"512\"></td><td><img src=\"tanne-zapfen.png\"></td><td><img src=\"kiefer-zapfen.png\"></td></tr>  <tr><td><img src=\"tanne-nadeln.jpg\" width=\"331\"></td><td><img src=\"fichte-nadeln.jpg\"></td><td><img src=\"kiefer-nadeln.jpg\" width=\"238\"></td></tr>  <tr><td><img src=\"kiefer-rinde.jpg\" width=\"275\"></td><td><img src=\"fichte-rinde.jpg\" width=\"448\"></td><td><img src=\"tanne-rinde.jpg\" width=\"261\"></td></tr></tbody></table>",
+      "<b>Zapfen</b><br><br><br><table style=\"border: 2px solid grey; width: 100%\">  <tbody><tr><td>Fichte (länglich hängend 🍆)</td><td>Tanne (länglich stehend)</td><td>Kiefer (rundlich)</td></tr></tbody></table><br><br><b>Nadeln</b><br><br><br><table style=\"border: 2px solid grey; width: 100%\">  <tbody><tr><td>Tanne (unten weiße Streifen, pieksen nicht)</td><td>Fichte (spitz, wachsen rings um den Zweig herum)</td><td>Kiefer (mehrere Nadeln aus einer Basis)</td></tr></tbody></table><br><br><b>Rinde</b><br><br><br><table style=\"border: 2px solid grey; width: 100%\">  <tbody><tr><td>Kiefer (große Schuppen, rot- bis graubraun)</td><td>Fichte (dünnschuppig, rot- bis graubraun)</td><td>Tanne (glatt bis rissig, grau bis weiß)</td></tr></tbody></table>"
+    ],
+    "guid": "-uTyA",
+    "note_model_uuid": "ab65f276-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<table>\n  <tbody><tr><td><img src=\"img6632167962852441909.webp\"></td><td><img src=\"img5332876652022226617.jpg\" width=\"422\"></td></tr>\n  <tr><td><img src=\"img7307896897047788428.webp\"></td></tr>\n</tbody></table>",
+      "Spargel<br><br>Erntezeit<br>J F <b>M A</b> M J J A S O N D<br><br>Kann 10+ Jahre geerntet werden"
+    ],
+    "guid": ":)g,M",
+    "note_model_uuid": "ab65f276-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Pflanzen"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<img src=\"img1134408424217906340.jpg\">",
       "Roggen <br><br>    Grannen mittellang<br>    Körner länglich<br>    Wachstum straff, in Blütezeit leicht geneigt"
     ],
@@ -22,6 +46,16 @@
     "tags": [
       "FF::Pflanzen"
     ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "Fische",
+      "<ol><li>Aal</li><li>Barsch</li><li>Hecht</li><li>Karpfen</li><li>Plötze</li><li>Rotfeder</li><li>Zander</li></ol>"
+    ],
+    "guid": "?IAC8",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
   },
   {
     "__type__": "Note",
@@ -74,6 +108,18 @@
   {
     "__type__": "Note",
     "fields": [
+      "<h1>Rindviecher</h1>\n<table><tbody>\n  <tr><td><img src=\"img5567289334683092556.jpg\" width=\"439\"></td><td><img src=\"img6462890683228639103.jpg\"></td></tr>\n</tbody></table>",
+      "Kalb<br>- ersten fünf Lebensmonate<br><br>Fresser<br>- erstes Lebensjahr <br><br>(Jungbulle ♂️)<br><br>Bulle, Stier ♂️<br>- geschlechtsreif (ca. 1 Jahr)<br>- tight<br>- zwei Begriffe meinen dasselbe <br><br>Ochse ♂️<br>- kastriert <br>- oft Arbeitstier (fehlende Hormone macht ihn zahm)<br><br>(Jungrind ♀️)<br><br>Färse ♀️<br>- geschlechtsreif (ca. 9 Monate)<br><br>Kuh ♀️<br>- sobald sie ihr erstes Kalb bekommen hat<br>- Euter <br><br><b>Hörner</b><br>Haben prinzipiell sowohl die männlichen als auch weiblichen Tiere. In Deutschland werden die meisten Rinder nach der Geburt enthornt. Es gibt aber auch Rassen, die ohne Horn gezüchtet werden."
+    ],
+    "guid": "%cqvS",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Tiere"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<table>\n    <tbody>\n        <tr>\n            <td><img src=\"img6256246648820191775.jpg\"></td>\n            <td><img src=\"img4878658955137057480.jpg\"></td>\n        </tr>\n        <tr>\n            <td><img src=\"img2188801491549619778.jpg\"></td>\n        </tr>\n    </tbody>\n</table>\n",
       "Kugeldistel (nicht giftig)"
     ],
@@ -82,6 +128,16 @@
     "tags": [
       "FF::Pflanzen"
     ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
+      "<h1>Teile eines Hauses </h1><br><img src=\"img319393107884514071.jpg\">",
+      "<img src=\"img5021749775707713382.jpg\">"
+    ],
+    "guid": "^jgcG",
+    "note_model_uuid": "ab65f276-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
   },
   {
     "__type__": "Note",
@@ -168,6 +224,16 @@
   {
     "__type__": "Note",
     "fields": [
+      "<table>\n  <tbody><tr><td><img src=\"IMG_20230401_091334851.jpg\" width=\"419\"></td><td><img src=\"IMG_20230401_091342807.jpg\" width=\"446\"></td></tr>\n</tbody></table>",
+      "Taubnessel (nicht giftig)"
+    ],
+    "guid": "a~PAK",
+    "note_model_uuid": "ab65f276-06d1-11ed-802f-4115f6f84da7",
+    "tags": []
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<img src=\"img8037189492541795675.jpg\"><br><br><img src=\"img8803313044689609188.jpg\">",
       "Hartriegel (meiste Teile leicht giftig, außer Blüte/Früchte)"
     ],
@@ -180,7 +246,7 @@
   {
     "__type__": "Note",
     "fields": [
-      "<img src=\"Johanniskraut_2-1-768x1024.jpg\" width=\"192\"><br><br><img src=\"Hypericum_perforatum_(5258413313).jpg\" width=\"495\"><br><br><img src=\"Hypericum_perforatum_HC1.JPG\" width=\"644\">",
+      "<table>\n  <tbody><tr><td><img src=\"Johanniskraut_2-1-768x1024.jpg\" width=\"192\"></td><td><img src=\"Hypericum_perforatum_(5258413313).jpg\" width=\"495\"></td></tr>\n  <tr><td><img src=\"Hypericum_perforatum_HC1.JPG\" width=\"644\"></td></tr>\n</tbody></table>",
       "Johanniskraut (nicht giftig)"
     ],
     "guid": "b`t@PIIJ4r",
@@ -288,6 +354,18 @@
   {
     "__type__": "Note",
     "fields": [
+      "<img src=\"penguin.jpg\">",
+      "Pinguin (Kaiserpinguin), Bewohner der Antarktis = Südpol (eigenständiger Kontinent, Landmasse, keine menschliche Einwohner)"
+    ],
+    "guid": "fuh!D`/ceL",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Tiere"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<img src=\"bockshornklee-2.jpg\"><br><br><img src=\"bockshornklee-1-534x800.jpg\"><br><br><img src=\"bockshornklee-11.jpg\">",
       "Bockshornklee (nicht giftig)<br>Samen zum Würzen"
     ],
@@ -340,18 +418,6 @@
       "Wilde Möhre (nicht giftig)"
     ],
     "guid": "H:LOB",
-    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
-    "tags": [
-      "FF::Pflanzen"
-    ]
-  },
-  {
-    "__type__": "Note",
-    "fields": [
-      "<img src=\"img5545093938425253098.jpg\">",
-      "<b>1. Dinkel</b><br>2. Emmer oder auch Zweikorn <br><b>3. Winterweizen ohne Grannen</b><br>4. Grannenweizen<br>5. Einkorn"
-    ],
-    "guid": "h{n:Q",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
     "tags": [
       "FF::Pflanzen"
@@ -526,6 +592,18 @@
   {
     "__type__": "Note",
     "fields": [
+      "<img src=\"polarbear.jpg\">",
+      "Eisbär / Polarbär (Nordpol = Arktis besteht aus nördlichen Teilen mehrerer Länder, keine Landmasse)"
+    ],
+    "guid": "kGn@H{F,8%",
+    "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
+    "tags": [
+      "FF::Tiere"
+    ]
+  },
+  {
+    "__type__": "Note",
+    "fields": [
       "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Blüten Acer campestre\" src=\"0055pic_more1_me.jpg\"><br></td><td style=\"width: 50%; padding: 2px; border: 1px solid;\"><img alt=\"Früchte von Acer campestre\" src=\"0055pic_fruechte_me.jpg\"><br></td></tr></tbody></table>",
       "Ahorn<br><br><table class=\"table_class_basic_full_width\" style=\"border-collapse: collapse; border: 1px solid;\"><tbody><tr><td style=\"padding: 2px; border: 1px solid;\">Spitz-<br><img alt=\"Blatt von Acer platanoides Spitz-Ahorn\" src=\"0056pic_blatt_me.jpg\"><br></td><td style=\"padding: 2px; border: 1px solid;\">Feld-<br><img alt=\"Blatt von Acer campestre Feld-Ahorn\" src=\"0055pic_blatt_me.jpg\"><br></td></tr><tr><td style=\"padding: 2px; border: 1px solid;\">Berg-<br><img alt=\"Blatt von Acer pseudoplatanus Berg-Ahorn\" src=\"0054pic_blatt_me.jpg\"><br><br></td><td style=\"padding: 2px; border: 1px solid;\">Eschen-<br><img alt=\"Blatt von Acer negundo Eschen-Ahorn\" src=\"0168pic_blatt_me.jpg\"><br></td></tr></tbody></table><br><br>Früchte von Berg- und Eschenahorn sehr giftig!<br><br>"
     ],
@@ -646,8 +724,8 @@
   {
     "__type__": "Note",
     "fields": [
-      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus im Frühjahr Familie: Rosaceae\" src=\"0064pic_more3_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus Familie: Rosaceae\" src=\"0064pic_habitus_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0064pic_blatt_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blüten Familie: Rosaceae\" src=\"0064pic_more1_gr.jpg\"><br></td></tr></tbody></table>",
-      "Apfel<br><ul><li>nicht giftig ;-)</li><li>Blütezeit&nbsp;JFM<b>AM</b>JJASOND</li><li>Fruchtreife&nbsp;JFMAMJJA<b>SO</b>ND</li><li>Verwechslung: Wildapfel (oft mit Dornen, Äpfel kaum gerötet, sauer, meist nur Tischtennisball Größe)</li></ul>"
+      "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\"><br>                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus im Frühjahr Familie: Rosaceae\" src=\"0064pic_more3_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Habitus Familie: Rosaceae\" src=\"0064pic_habitus_gr.jpg\"><br></td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blatt / Blattoberseite Familie: Rosaceae\" src=\"0064pic_blatt_gr.jpg\"><br></td><td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img alt=\"Kultur-Apfel / Malus domestica / Blüten Familie: Rosaceae\" src=\"0064pic_more1_gr.jpg\"><br></td></tr></tbody></table>",
+      "Apfel<br><ul><li>nicht giftig ;-)</li><li>Blütezeit&nbsp;JFM<b>AM</b>JJASOND</li><li>Fruchtreife&nbsp;JFMAMJJA<b>SO</b>ND</li><li>Verwechslung: Wildapfel (oft mit Dornen, Äpfel kaum gerötet, sauer, meist nur Tischtennisball Größe)</li></ul><br>Apfel vs. Birne<br><ul><li>Apfel: Krone rund wie die Apfelfrucht selbst - Birne: Krone eher langgezogen</li><li>Apfel: Blüte kann auch rosafarbene Blüten enthalten - Birne: Blüte weiß</li></ul>"
     ],
     "guid": "o4QBe4,@~Y",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
@@ -791,7 +869,7 @@
     "__type__": "Note",
     "fields": [
       "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid;\">    <tbody>        <tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img7591841393564347744.jpg\"></td>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img9027222189224409689.jpg\"><br></td></tr><tr>            <td style=\"width:50%;  padding: 2px; border: 1px solid;\"><img src=\"img6923510883650884492.jpg\"></td>            </tr></tbody></table><br>",
-      "Efeu (Beeren sehr giftig, Grünzeug verursacht nur Hautreizungen)"
+      "Efeu (Beeren sehr giftig, Grünzeug verursacht Hautreizungen)"
     ],
     "guid": "tlB&T]Xm9:",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
@@ -803,7 +881,7 @@
     "__type__": "Note",
     "fields": [
       "Ina Lieblingsblumen",
-      "<u>Gerne</u>&nbsp;&nbsp;&nbsp;&nbsp;Fresien, Tulpen, Glockenblume (Campanula), Flieder, Osterglocken, Winterlinge<br><br>\n<u>Nicht</u>&nbsp;&nbsp;&nbsp;&nbsp;Gerbera, Hyazinten, rot (ausser Rosen)"
+      "<u>Gerne</u>&nbsp; &nbsp; Glockenblume (Campanula), Osterglocken,&nbsp;Flieder, Fresien,&nbsp;Winterlinge, Tulpen<br><br>\n<u>Nicht</u>&nbsp;&nbsp;&nbsp;&nbsp;Gerbera, Hyazinten, rot (ausser Rosen)"
     ],
     "guid": "U}}9E",
     "note_model_uuid": "8d67472a-06d1-11ed-802f-4115f6f84da7",
